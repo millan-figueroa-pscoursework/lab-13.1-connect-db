@@ -7,11 +7,11 @@ require("dotenv").config();
 const app = express();
 app.use(express.json());
 app.use(morgan("dev"));
-const PORT = 4000;
+const PORT = 3001;
 
 mongoose
   .connect(process.env.MONGO_URI)
-  .then(() => console.log("Connected to MongoDB"))
+  .then(() => console.log("Connected to MongoDB!"))
   .then((err) => console.log(err));
 
 app.get("/", (req, res) => {
