@@ -28,25 +28,25 @@ First I would check the env file to make sure the connection string is correct,c
 
 ## Setup
 
-Clone the repository
+#### 1. Clone the repository
 
-#### Install dependencies:
+#### 2. Install dependencies:
 
-`npm install`
+`npm install express mongodb dotenv`
 
-#### Create a .env file in the root directory and add connection string (no quotes):
+#### 3. Create a .env file in the root directory and add connection string from MongoDB (no quotes):
 
 `MONGO_URI=your_connection_string_here`
 
 Add .env to .gitignore.
 
-#### Run the Server
+#### 4. Run the Server
 
 `node server.js`
 
 Server runs on port 3001 by default.
 
-#### Test the Connection
+#### 5. Test the Connection
 
 Open browser or use Postman:
 
