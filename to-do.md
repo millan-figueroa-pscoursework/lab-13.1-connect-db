@@ -47,14 +47,14 @@ If connection fails return 500 + { message: "Failed to connect to the database."
 
 ## Task 4 — Test & Submit
 
-- [] Run server:
-  `node server.js`
+- [x] Run server:
+      `node server.js`
 
-- [] Go to:
-  `http://localhost:3001/`
+- [x] Go to:
+      `http://localhost:3001/`
 
-- [] Confirm success message appears.
+- [x] Confirm success message appears.
 
-- [] Push project to GitHub (without .env)
+- [x] Push project to GitHub (without .env)
 
-- [] Submit the GitHub repo link.
+- [x] Submit the GitHub repo link.
